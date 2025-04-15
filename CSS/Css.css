@@ -1,0 +1,74 @@
+/* Umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #f0f0f0;
+  padding: 20px;
+}
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+}
+
+/* Home - Portfolio grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+.image-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Gallery horizontal */
+.horizontal-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.horizontal-gallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+/* Blog */
+article {
+  margin-bottom: 40px;
+}
+.toggle-content {
+  margin-left: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.more-content {
+  margin-top: 15px;
+}
+.more-content img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.more-content h3 {
+  margin-top: 20px;
+}
+
+/* Contact form */
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+#response {
+  margin-top: 15px;
+  font-weight: bold;
+}
